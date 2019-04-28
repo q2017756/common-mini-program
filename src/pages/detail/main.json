@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "服务详情",
+  "usingComponents": {
+    "van-rate": "../../static/vant/rate/index",
+    "van-icon": "../../static/vant/icon/index",
+    "van-goods-action": "../../static/vant/goods-action/index",
+    "van-goods-action-icon": "../../static/vant/goods-action-icon/index",
+    "van-goods-action-button": "../../static/vant/goods-action-button/index"
+  }
+}

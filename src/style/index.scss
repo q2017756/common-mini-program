@@ -1,0 +1,35 @@
+@import 'variables';
+
+.font-smaller {
+  font-size: 12px;
+}
+.font-small {
+  font-size: 14px;
+}
+.font-normal {
+  font-size: 16px;
+}
+.font-big {
+  font-size: 18px;
+}
+.font-biger {
+  font-size: 20px;
+}
+.mb5 {
+  margin-bottom: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.color-gray {
+  color: #666;
+}
+
+
+
+.bg-yellow {
+  background: $mainColor;
+}

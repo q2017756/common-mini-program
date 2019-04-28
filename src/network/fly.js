@@ -1,7 +1,7 @@
 import Fly from 'flyio/dist/npm/wx'
 
 const fly = new Fly()
-const host = 'https://rmall.ukelink.net'
+const host = 'http://pointslinks.com'
 // 添加请求拦截器
 fly.interceptors.request.use((request) => {
   wx.showLoading({
@@ -11,7 +11,8 @@ fly.interceptors.request.use((request) => {
   console.log(request)
   request.headers = {
     'X-Tag': 'flyio',
-    'content-type': 'application/json'
+    'content-type': 'application/json',
+    'Authorization': 'Bearer ' + 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMTMiLCJuYW1lIjoiIiwicGhvbmVfbnVtYmVyIjoiIiwiYXVkIjoiYXBpIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MjAwIiwibmJmIjoxNTU2MzU5NjYxLCJleHAiOjE1NTY1NzU2NjEsImlhdCI6MTU1NjM1OTY2MX0.70wZ9tWfG3PET6OMEs5w1444YCyFCLFPJov-nTW4VH4'
   }
 
   let authParams = {
